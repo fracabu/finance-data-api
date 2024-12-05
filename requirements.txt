@@ -1,0 +1,33 @@
+# Core dependencies
+Flask==3.0.3
+Flask-Cors==5.0.0
+gunicorn==20.1.0
+
+# Data processing
+pandas==2.2.2
+numpy==1.26.4
+scipy>=1.12.0
+
+# Financial analysis
+yfinance>=0.2.37
+ta>=0.10.0
+pandas-ta>=0.3.14b
+
+# Machine Learning
+scikit-learn>=1.4.0
+
+# Data visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Excel handling
+openpyxl>=3.1.2
+xlsxwriter>=3.1.9
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Rate limiting and caching
+Flask-Limiter>=3.5.0
+Flask-Caching>=2.1.0
